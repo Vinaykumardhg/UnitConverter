@@ -12,21 +12,21 @@ public class UnitConverterTest {
 
     @Test
     public void test_distance_converter() {
-        assertEquals( 28,uc.distance_converter(2));
+        assertEquals( 280,uc.distance_converter(2));
     }
 
     @Test
     public void test_weight_converter() {
-        assertEquals( 8,uc.distance_converter(5));
+        assertEquals( 8,uc.weight_converter(5));
     }
 
     @Test
     public void test_temperature_converter() {
-        assertEquals( 32,uc.distance_converter(20));
+        assertEquals( 32,uc.temperature_converter(20));
     }
 
     @Test
     public void test_volume_converter() {
-        assertEquals( 126,uc.distance_converter(4));
+        assertEquals( 126,uc.volume_converter(4));
     }
 }
