@@ -27,6 +27,6 @@ public class UnitConverterTest {
 
     @Test
     public void test_volume_converter() {
-        assertEquals( 6,uc.distance_converter(4));
+        assertEquals( 126,uc.distance_converter(4));
     }
 }
