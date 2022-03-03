@@ -12,7 +12,7 @@ public class UnitConverterTest {
 
     @Test
     public void test_distance_converter() {
-        assertEquals( 2,uc.distance_converter(2));
+        assertEquals( 28,uc.distance_converter(2));
     }
 
     @Test
